@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Other Currencies View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="OtherCurrenciesViewController" customModule="BCP_Challenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bcp_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Hjp-hy-kXp">
+                                <rect key="frame" x="20" y="84" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9cl-pB-EXc"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nDj-D6-cle">
+                                <rect key="frame" x="16" y="214" width="382" height="648"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nDj-D6-cle" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="P1r-PX-Wga"/>
+                            <constraint firstItem="Hjp-hy-kXp" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="TaM-jF-xS4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Hjp-hy-kXp" secondAttribute="trailing" constant="20" id="U1p-n1-5hS"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nDj-D6-cle" secondAttribute="trailing" constant="16" id="Vem-b5-HzV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="nDj-D6-cle" secondAttribute="bottom" id="bYc-TV-6jO"/>
+                            <constraint firstItem="Hjp-hy-kXp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="nI1-ye-sWC"/>
+                            <constraint firstItem="nDj-D6-cle" firstAttribute="top" secondItem="Hjp-hy-kXp" secondAttribute="bottom" constant="30" id="xzc-wm-6mb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="currenciesTableView" destination="nDj-D6-cle" id="Qi3-p1-yZN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="129"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bcp_logo" width="326" height="326"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

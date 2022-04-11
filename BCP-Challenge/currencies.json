@@ -1,0 +1,48 @@
+[
+    {
+        "origin": "eur",
+        "destination": "eur",
+        "changeValue": 1.0000
+    },
+    {
+        "origin": "eur",
+        "destination": "usd",
+        "changeValue": 1.0963
+    },
+    {
+        "origin": "eur",
+        "destination": "pen",
+        "changeValue": 4.0000
+    },
+    {
+        "origin": "usd",
+        "destination": "eur",
+        "changeValue": 0.9233
+    },
+    {
+        "origin": "usd",
+        "destination": "usd",
+        "changeValue": 1.0000
+    },
+    {
+        "origin": "usd",
+        "destination": "pen",
+        "changeValue": 3.6348
+    },
+    {
+        "origin": "pen",
+        "destination": "eur",
+        "changeValue": 0.2500
+    },
+    {
+        "origin": "pen",
+        "destination": "usd",
+        "changeValue": 0.2732,
+        "isDefault": true
+    },
+    {
+        "origin": "pen",
+        "destination": "pen",
+        "changeValue": 1.0000
+    }
+]

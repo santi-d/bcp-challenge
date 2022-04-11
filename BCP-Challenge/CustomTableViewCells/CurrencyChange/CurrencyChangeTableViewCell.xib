@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CurrencyChangeTableViewCell" rowHeight="109" id="KGk-i7-Jjw" customClass="CurrencyChangeTableViewCell" customModule="BCP_Challenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h02-Na-6tC" userLabel="Input Ammount View">
+                        <rect key="frame" x="0.0" y="0.0" width="213.5" height="109"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D96-r8-bXk">
+                                <rect key="frame" x="8" y="8" width="197.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5h2-SA-UG4">
+                                <rect key="frame" x="8" y="37" width="197.5" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="D96-r8-bXk" secondAttribute="trailing" constant="8" id="JuL-cn-M0y"/>
+                            <constraint firstAttribute="trailing" secondItem="5h2-SA-UG4" secondAttribute="trailing" constant="8" id="Maq-iF-c8h"/>
+                            <constraint firstItem="5h2-SA-UG4" firstAttribute="top" secondItem="D96-r8-bXk" secondAttribute="bottom" constant="8" id="bFC-cF-380"/>
+                            <constraint firstItem="5h2-SA-UG4" firstAttribute="leading" secondItem="h02-Na-6tC" secondAttribute="leading" constant="8" id="dEB-AT-IQi"/>
+                            <constraint firstItem="D96-r8-bXk" firstAttribute="top" secondItem="h02-Na-6tC" secondAttribute="top" constant="8" id="dsx-m4-IQf"/>
+                            <constraint firstAttribute="bottom" secondItem="5h2-SA-UG4" secondAttribute="bottom" constant="8" id="oDd-wh-RYj"/>
+                            <constraint firstItem="D96-r8-bXk" firstAttribute="leading" secondItem="h02-Na-6tC" secondAttribute="leading" constant="8" id="qU6-br-RI3"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDB-AG-ShP" userLabel="Currency View">
+                        <rect key="frame" x="213.5" y="0.0" width="106.5" height="109"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be7-PM-MHJ">
+                                <rect key="frame" x="16" y="44" width="90.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="be7-PM-MHJ" firstAttribute="leading" secondItem="bDB-AG-ShP" secondAttribute="leading" constant="16" id="J0a-NM-Ncp"/>
+                            <constraint firstAttribute="trailing" secondItem="be7-PM-MHJ" secondAttribute="trailing" id="xF2-7T-W3B"/>
+                            <constraint firstItem="be7-PM-MHJ" firstAttribute="centerY" secondItem="bDB-AG-ShP" secondAttribute="centerY" id="yv5-mS-KUc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="h02-Na-6tC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8FD-LE-j1s"/>
+                    <constraint firstItem="h02-Na-6tC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Im3-JN-31Q"/>
+                    <constraint firstAttribute="bottom" secondItem="bDB-AG-ShP" secondAttribute="bottom" id="Jez-Jp-lOF"/>
+                    <constraint firstAttribute="trailing" secondItem="bDB-AG-ShP" secondAttribute="trailing" id="YDt-m8-r91"/>
+                    <constraint firstAttribute="bottom" secondItem="h02-Na-6tC" secondAttribute="bottom" id="ayW-4H-OJf"/>
+                    <constraint firstItem="h02-Na-6tC" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="2:3" id="gAR-nL-CTn"/>
+                    <constraint firstItem="bDB-AG-ShP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="izp-qR-WuG"/>
+                    <constraint firstItem="bDB-AG-ShP" firstAttribute="leading" secondItem="h02-Na-6tC" secondAttribute="trailing" id="xgZ-8v-BqU"/>
+                    <constraint firstItem="bDB-AG-ShP" firstAttribute="height" secondItem="h02-Na-6tC" secondAttribute="height" id="ybU-Pd-7MD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="currencyLabel" destination="be7-PM-MHJ" id="OEQ-JS-T4J"/>
+                <outlet property="currencyLabelContainerView" destination="bDB-AG-ShP" id="fka-bl-Lgf"/>
+                <outlet property="inputTextField" destination="5h2-SA-UG4" id="MaJ-g4-ITQ"/>
+                <outlet property="titleLabel" destination="D96-r8-bXk" id="J1I-64-Ucv"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="174.44196428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
