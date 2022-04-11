@@ -9,7 +9,7 @@ import UIKit
 
 protocol ChangeCurrencyDelegate: AnyObject {
     func presentOtherCurrenciesScreen(withDataFromIndex selectedIndex: Int)
-    func onEnteredValue(value: Double, onCellRow: Int)
+    func onValueChanged(changedValue: String, calculatedValue: String, indexForRefreshing: [IndexPath])
 }
 
 class ChangeCurrencyViewController: UIViewController {
@@ -116,18 +116,13 @@ extension ChangeCurrencyViewController: ChangeCurrencyDelegate {
 
         presenter?.selectedCurrencyIndex = selectedIndex
 
-        otherCurrenciesViewController.setupViewController(selectedPairCurrency: dataSource[selectedIndex], interactor: OtherCurrencyInteractor(), delegate: self)
+        otherCurrenciesViewController.setupViewController(selectedPairCurrency: dataSource[selectedIndex], delegate: self)
         navigationController?.pushViewController(otherCurrenciesViewController, animated: true)
     }
 
-    func onEnteredValue(value: Double, onCellRow: Int) {
-        let otherCellIndex = onCellRow == 0 ? 1 : 0
-        if let dataSource = presenter?.dataSource {
-            let pairCurrency = dataSource[otherCellIndex]
-
-            presenter?.valueDataSource = ["\(value)", "\(value * pairCurrency.changeValue)"]
-            tableView.reloadData()
-        }
+    func onValueChanged(changedValue: String, calculatedValue: String, indexForRefreshing: [IndexPath]) {
+        presenter?.valueDataSource = [changedValue, calculatedValue]
+        tableView.reloadRows(at: indexForRefreshing, with: UITableView.RowAnimation.none)
     }
 }
 

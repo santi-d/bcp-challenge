@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 typealias TuplePairCurrency = (firstPairCurrency: PairCurrency, secondPairCurrency: PairCurrency)
 
 protocol ChangeCurrencyPresenterProtocol {

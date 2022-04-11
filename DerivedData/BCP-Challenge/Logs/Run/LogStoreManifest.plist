@@ -1298,6 +1298,40 @@
 			<key>uniqueIdentifier</key>
 			<string>63DD7918-8ADF-4C1B-96D4-A42E770DF8A8</string>
 		</dict>
+		<key>6433C187-94C5-46AF-9239-A219553D1760</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6433C187-94C5-46AF-9239-A219553D1760.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671380151.14062905</real>
+			<key>timeStoppedRecording</key>
+			<real>671381914.99557602</real>
+			<key>title</key>
+			<string>Run BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>6433C187-94C5-46AF-9239-A219553D1760</string>
+		</dict>
 		<key>681E2F73-B6B9-4D5B-BD93-4476A0788D41</key>
 		<dict>
 			<key>className</key>
@@ -1331,6 +1365,40 @@
 			<string>Run BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>681E2F73-B6B9-4D5B-BD93-4476A0788D41</string>
+		</dict>
+		<key>6C6DF70E-8A5F-405F-96E8-6E06B3ADF25E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6C6DF70E-8A5F-405F-96E8-6E06B3ADF25E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671355043.78713405</real>
+			<key>timeStoppedRecording</key>
+			<real>671379779.61113</real>
+			<key>title</key>
+			<string>Run BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>6C6DF70E-8A5F-405F-96E8-6E06B3ADF25E</string>
 		</dict>
 		<key>6E77CBFF-3452-451A-8995-18A3ADF89FB2</key>
 		<dict>
@@ -1433,6 +1501,40 @@
 			<string>Run BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>6FDEFE57-06B4-4163-B623-D2804AD8ABD6</string>
+		</dict>
+		<key>714F22E7-B3AA-46BD-8210-47E9C496E91B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>714F22E7-B3AA-46BD-8210-47E9C496E91B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379850.72415602</real>
+			<key>timeStoppedRecording</key>
+			<real>671380103.99732697</real>
+			<key>title</key>
+			<string>Run BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>714F22E7-B3AA-46BD-8210-47E9C496E91B</string>
 		</dict>
 		<key>7256773D-980A-46CE-BEDA-A92F4639CE8F</key>
 		<dict>
@@ -2930,6 +3032,40 @@
 			<key>uniqueIdentifier</key>
 			<string>E1B2B561-4F83-4C61-AB58-9C5E1DE61820</string>
 		</dict>
+		<key>E3122A22-BA9D-4695-92AE-19CA6E22BE67</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E3122A22-BA9D-4695-92AE-19CA6E22BE67.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671380104.04403901</real>
+			<key>timeStoppedRecording</key>
+			<real>671380147.16110301</real>
+			<key>title</key>
+			<string>Run BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>E3122A22-BA9D-4695-92AE-19CA6E22BE67</string>
+		</dict>
 		<key>E35B7FF0-16EA-4252-B938-E80CB6BEF021</key>
 		<dict>
 			<key>className</key>
@@ -3065,6 +3201,40 @@
 			<string>Run BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>EC5E832C-9550-4F53-9AA0-FC7DDF7A6D62</string>
+		</dict>
+		<key>ED2E1652-02D8-4282-9DE7-73A6445D81D5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ED2E1652-02D8-4282-9DE7-73A6445D81D5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379780.072047</real>
+			<key>timeStoppedRecording</key>
+			<real>671379847.95286906</real>
+			<key>title</key>
+			<string>Run BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>ED2E1652-02D8-4282-9DE7-73A6445D81D5</string>
 		</dict>
 		<key>EEECB8A2-4D76-4BC8-B026-2EAD23191045</key>
 		<dict>

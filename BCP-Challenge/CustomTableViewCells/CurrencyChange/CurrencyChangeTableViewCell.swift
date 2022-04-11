@@ -71,7 +71,6 @@ class CurrencyChangeTableViewCell: UITableViewCell {
         longPressGesture.delaysTouchesBegan = true
 
         currencyLabelContainerView.addGestureRecognizer(longPressGesture)
-
         currencyLabelContainerView.backgroundColor = .bcpMetallicBlue
     }
 
@@ -95,22 +94,31 @@ class CurrencyChangeTableViewCell: UITableViewCell {
 
 extension CurrencyChangeTableViewCell: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        if let text = textField.text, let textRange = Range(range, in: text), let index = index {
-            let updatedText = text.replacingCharacters(in: textRange, with: string)
-            let isEmptytext = updatedText.isEmpty
+        guard let text = textField.text, let textRange = Range(range, in: text), let index = index  else {
+            return false
+        }
 
-            if isEmptytext {
-                changeCurrencyDelegate?.onEnteredValue(value: 0.0, onCellRow: index)
-                return true
-            }
+        let updatedText = text.replacingCharacters(in: textRange, with: string)
+        let isEmptytext = updatedText.isEmpty
 
-            if let doubleValue = Double(updatedText) {
-                changeCurrencyDelegate?.onEnteredValue(value: doubleValue, onCellRow: index)
-            }
-
+        let indexForRefreshing = [IndexPath(row: abs(1 - index), section: 0)]
+        if isEmptytext {
+            changeCurrencyDelegate?.onValueChanged(changedValue: "", calculatedValue: "", indexForRefreshing: indexForRefreshing)
             return true
         }
 
-        return false
+        guard let changedValue = Double(updatedText), let factor = pairCurrency?.changeValue else {
+            return false
+        }
+
+        let calculatedValue = changedValue * factor
+
+        if index == 0 {
+            changeCurrencyDelegate?.onValueChanged(changedValue: "\(changedValue)", calculatedValue: "\(calculatedValue)", indexForRefreshing: indexForRefreshing)
+        } else {
+            changeCurrencyDelegate?.onValueChanged(changedValue: "\(calculatedValue)", calculatedValue: "\(changedValue)", indexForRefreshing: indexForRefreshing)
+        }
+
+        return true
     }
 }

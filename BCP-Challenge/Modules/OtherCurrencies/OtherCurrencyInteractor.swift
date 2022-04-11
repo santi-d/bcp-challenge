@@ -8,19 +8,17 @@
 import Foundation
 
 protocol OtherCurrencyInteractorProtocol: BaseInteractorProtocol {
-    var pairCurrencies: [PairCurrency] { get set }
-
-    func refreshCurrencies(for currency: Currency)
+    func refreshCurrencies(for currency: Currency) -> [PairCurrency]
     func getPairs(originViewModel: PairCurrency) -> PairCurrency?
 }
 
 class OtherCurrencyInteractor: OtherCurrencyInteractorProtocol {
     private var allPairCurrencies: [PairCurrency] = []
-    var pairCurrencies: [PairCurrency] = []
+    private var pairCurrencies: [PairCurrency] = []
 
-    func refreshCurrencies(for currency: Currency) {
+    func refreshCurrencies(for currency: Currency) -> [PairCurrency] {
         guard let jsonData = readLocalJSONFile(name: "currencies") else {
-            return
+            return []
         }
 
         allPairCurrencies = parse(jsonData: jsonData)
@@ -31,6 +29,8 @@ class OtherCurrencyInteractor: OtherCurrencyInteractorProtocol {
             }
 
         pairCurrencies = currenciesParsed
+
+        return pairCurrencies
     }
 
     func getPairs(originViewModel: PairCurrency) -> PairCurrency? {

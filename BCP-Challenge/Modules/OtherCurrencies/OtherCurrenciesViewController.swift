@@ -15,7 +15,7 @@ class OtherCurrenciesViewController: UIViewController {
     @IBOutlet weak var currenciesTableView: UITableView!
 
     private let registeredCellIdentifier = "OtherCurrenciesTableViewCell"
-    private var interactor: OtherCurrencyInteractorProtocol?
+    private var presenter: OtherCurrenciesPresenterProtocol?
 
     var selectedPairCurrency: PairCurrency?
     weak var delegate: OtherCurrenciesViewDelegate?
@@ -29,11 +29,11 @@ class OtherCurrenciesViewController: UIViewController {
 
     // MARK: -- public func
 
-    func setupViewController(selectedPairCurrency: PairCurrency, interactor: OtherCurrencyInteractorProtocol, delegate: OtherCurrenciesViewDelegate) {
-        self.interactor = interactor
+    func setupViewController(selectedPairCurrency: PairCurrency, interactor: OtherCurrencyInteractorProtocol = OtherCurrencyInteractor(), delegate: OtherCurrenciesViewDelegate) {
+        self.presenter = OtherCurrenciesPresenter(interactor: interactor)
         self.delegate = delegate
         self.selectedPairCurrency = selectedPairCurrency
-        self.interactor?.refreshCurrencies(for: selectedPairCurrency.destination)
+        self.presenter?.refreshCurrencies(for: selectedPairCurrency.destination)
     }
 
     // MARK: -- private func
@@ -56,13 +56,12 @@ class OtherCurrenciesViewController: UIViewController {
 
 extension OtherCurrenciesViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // TODO: Move to presenter
-        interactor?.pairCurrencies.count ?? 0
+        presenter?.pairCurrencies.count ?? 0
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: registeredCellIdentifier, for: indexPath) as? OtherCurrenciesTableViewCell,
-              let viewModel = interactor?.pairCurrencies[indexPath.row] else {
+              let viewModel = presenter?.pairCurrencies[indexPath.row] else {
             return UITableViewCell()
         }
 
@@ -76,8 +75,8 @@ extension OtherCurrenciesViewController: UITableViewDelegate, UITableViewDataSou
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let destinationPairCurrency = interactor?.pairCurrencies[indexPath.row],
-           let originPairCurrency = interactor?.getPairs(originViewModel: destinationPairCurrency) {
+        if let destinationPairCurrency = presenter?.pairCurrencies[indexPath.row],
+           let originPairCurrency = presenter?.getPairs(originViewModel: destinationPairCurrency) {
             delegate?.onSelectNewPairCurrency((firstPairCurrency: originPairCurrency, secondPairCurrency: destinationPairCurrency))
         }
         

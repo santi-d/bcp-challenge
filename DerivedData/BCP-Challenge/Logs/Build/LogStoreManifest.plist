@@ -40,6 +40,40 @@
 			<key>uniqueIdentifier</key>
 			<string>0346763C-D42A-4691-85A8-41B25AB4A790</string>
 		</dict>
+		<key>074AEDD8-7813-4114-8A1F-674345FAE253</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>074AEDD8-7813-4114-8A1F-674345FAE253.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671380147.13985503</real>
+			<key>timeStoppedRecording</key>
+			<real>671380151.13747394</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>074AEDD8-7813-4114-8A1F-674345FAE253</string>
+		</dict>
 		<key>075C9E92-BCEF-4DF3-AE4F-AFC649F863A6</key>
 		<dict>
 			<key>className</key>
@@ -1434,6 +1468,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3A7A0D82-B74A-4E33-B54E-D97552492615</string>
 		</dict>
+		<key>3AABF7E1-FFD0-4D7B-B9B9-8C86849406CA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3AABF7E1-FFD0-4D7B-B9B9-8C86849406CA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671378542.74538195</real>
+			<key>timeStoppedRecording</key>
+			<real>671378552.61020005</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>3AABF7E1-FFD0-4D7B-B9B9-8C86849406CA</string>
+		</dict>
 		<key>3C251110-4C80-43F7-8D11-D029E2893D53</key>
 		<dict>
 			<key>className</key>
@@ -1467,6 +1535,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>3C251110-4C80-43F7-8D11-D029E2893D53</string>
+		</dict>
+		<key>3D9E0331-A6BE-4362-9262-9DEF4142D5C5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3D9E0331-A6BE-4362-9262-9DEF4142D5C5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379745.48097706</real>
+			<key>timeStoppedRecording</key>
+			<real>671379746.54231298</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>3D9E0331-A6BE-4362-9262-9DEF4142D5C5</string>
 		</dict>
 		<key>3DAAA310-C4BA-4370-A0C8-D2625678C7A4</key>
 		<dict>
@@ -1910,6 +2012,40 @@
 			<key>uniqueIdentifier</key>
 			<string>4AFB819B-D1AA-4D0D-8F27-1AAB3525E103</string>
 		</dict>
+		<key>4BE73424-B523-40E3-A7BC-ACF453FF3804</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4BE73424-B523-40E3-A7BC-ACF453FF3804.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379581.95599794</real>
+			<key>timeStoppedRecording</key>
+			<real>671379582.88677597</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>4BE73424-B523-40E3-A7BC-ACF453FF3804</string>
+		</dict>
 		<key>4D419189-87BA-4989-A954-D3991352B60A</key>
 		<dict>
 			<key>className</key>
@@ -1943,6 +2079,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>4D419189-87BA-4989-A954-D3991352B60A</string>
+		</dict>
+		<key>4F8DC1CD-4DB9-417F-8455-25361FF6F8F0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4F8DC1CD-4DB9-417F-8455-25361FF6F8F0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671374615.06600296</real>
+			<key>timeStoppedRecording</key>
+			<real>671374617.17467296</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>4F8DC1CD-4DB9-417F-8455-25361FF6F8F0</string>
 		</dict>
 		<key>5080D222-A2F0-45D2-B061-5F8AA0C260F3</key>
 		<dict>
@@ -2079,6 +2249,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>558B8ACD-AD79-4032-82FD-A42762588E3A</string>
+		</dict>
+		<key>562D64AA-D5CF-4DDF-AA25-32977F8C8B99</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>562D64AA-D5CF-4DDF-AA25-32977F8C8B99.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671381817.51465797</real>
+			<key>timeStoppedRecording</key>
+			<real>671381819.22251904</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>562D64AA-D5CF-4DDF-AA25-32977F8C8B99</string>
 		</dict>
 		<key>58FB2474-2DD3-4757-988F-CABA5AEA3D39</key>
 		<dict>
@@ -2522,6 +2726,40 @@
 			<key>uniqueIdentifier</key>
 			<string>6335F09A-0F2E-470E-A2BA-5770E53724C9</string>
 		</dict>
+		<key>64049ECE-97F4-4CCC-9EE2-FC203C675C84</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>64049ECE-97F4-4CCC-9EE2-FC203C675C84.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671381855.87122798</real>
+			<key>timeStoppedRecording</key>
+			<real>671381860.52340603</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>64049ECE-97F4-4CCC-9EE2-FC203C675C84</string>
+		</dict>
 		<key>656BED45-45B4-4AE2-90C8-2D44747F7E70</key>
 		<dict>
 			<key>className</key>
@@ -2794,6 +3032,40 @@
 			<key>uniqueIdentifier</key>
 			<string>7252D74E-B413-435F-B4CF-A55B753432F9</string>
 		</dict>
+		<key>75CD607C-5F15-4ACA-A44C-F90851ADE43C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>75CD607C-5F15-4ACA-A44C-F90851ADE43C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671380103.93366504</real>
+			<key>timeStoppedRecording</key>
+			<real>671380104.04048204</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>75CD607C-5F15-4ACA-A44C-F90851ADE43C</string>
+		</dict>
 		<key>75CEE327-64EA-4AFA-88C1-5CC1F1F0414B</key>
 		<dict>
 			<key>className</key>
@@ -2997,6 +3269,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>7B064ED1-F04A-490C-A9C6-BE9715ABD0B7</string>
+		</dict>
+		<key>7D9494FA-117E-4DAE-8B06-DBF07B18FAEF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7D9494FA-117E-4DAE-8B06-DBF07B18FAEF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671380023.46263397</real>
+			<key>timeStoppedRecording</key>
+			<real>671380025.43694603</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>7D9494FA-117E-4DAE-8B06-DBF07B18FAEF</string>
 		</dict>
 		<key>815DEDB6-5C34-4E71-8296-9C0609CFE6CE</key>
 		<dict>
@@ -3371,6 +3677,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>8F5F2D86-8902-43F4-A194-41C005775F89</string>
+		</dict>
+		<key>92297B9C-99DF-45FD-A9E0-D6AC186E368D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>92297B9C-99DF-45FD-A9E0-D6AC186E368D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379779.16225898</real>
+			<key>timeStoppedRecording</key>
+			<real>671379779.95211005</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>92297B9C-99DF-45FD-A9E0-D6AC186E368D</string>
 		</dict>
 		<key>92CFF679-C3AE-4681-8D70-0E56A3597192</key>
 		<dict>
@@ -3848,6 +4188,40 @@
 			<key>uniqueIdentifier</key>
 			<string>9F7498F1-8F90-4B4C-BE7A-A6B87A7287B0</string>
 		</dict>
+		<key>A02A56B2-2B07-438F-94D2-20C93CFEFD3E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A02A56B2-2B07-438F-94D2-20C93CFEFD3E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671381946.07888103</real>
+			<key>timeStoppedRecording</key>
+			<real>671381948.65560699</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>A02A56B2-2B07-438F-94D2-20C93CFEFD3E</string>
+		</dict>
 		<key>A0AEDA0F-EF5D-48B1-9A8D-8B1A663B1E1F</key>
 		<dict>
 			<key>className</key>
@@ -4324,6 +4698,40 @@
 			<key>uniqueIdentifier</key>
 			<string>B657F069-2528-429F-937D-52714359147B</string>
 		</dict>
+		<key>B6778601-F26A-45EF-A056-D499C66DB6CF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B6778601-F26A-45EF-A056-D499C66DB6CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379450.09301102</real>
+			<key>timeStoppedRecording</key>
+			<real>671379451.09530497</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>B6778601-F26A-45EF-A056-D499C66DB6CF</string>
+		</dict>
 		<key>B7769F5A-0400-4095-ABCF-1F2DEAC2FC60</key>
 		<dict>
 			<key>className</key>
@@ -4664,6 +5072,40 @@
 			<key>uniqueIdentifier</key>
 			<string>BFE16508-6743-4BEB-B99F-56BED673E5A4</string>
 		</dict>
+		<key>C0FCC372-A77C-409D-9D4B-8A74294F59F2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C0FCC372-A77C-409D-9D4B-8A74294F59F2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379755.18345702</real>
+			<key>timeStoppedRecording</key>
+			<real>671379758.72055197</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>C0FCC372-A77C-409D-9D4B-8A74294F59F2</string>
+		</dict>
 		<key>C120E419-D189-4CC7-9A03-6ED96E562828</key>
 		<dict>
 			<key>className</key>
@@ -4833,6 +5275,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>C3F527EB-EE68-49CB-BC79-EDC42193E235</string>
+		</dict>
+		<key>C44BA201-B826-40F3-9263-1B8A820C3B02</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C44BA201-B826-40F3-9263-1B8A820C3B02.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671378730.10560298</real>
+			<key>timeStoppedRecording</key>
+			<real>671378731.03406298</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>C44BA201-B826-40F3-9263-1B8A820C3B02</string>
 		</dict>
 		<key>C4852377-9A15-41B0-868C-0237923AD2DD</key>
 		<dict>
@@ -5140,6 +5616,40 @@
 			<key>uniqueIdentifier</key>
 			<string>D3B80BD4-C569-4582-A730-20D666D722CC</string>
 		</dict>
+		<key>D45B85B5-D9D2-4E18-A9F6-7CDC4197224E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D45B85B5-D9D2-4E18-A9F6-7CDC4197224E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379052.86535704</real>
+			<key>timeStoppedRecording</key>
+			<real>671379054.62343299</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>D45B85B5-D9D2-4E18-A9F6-7CDC4197224E</string>
+		</dict>
 		<key>D4D52496-67D7-4DE7-9ACE-53EDA3A085D0</key>
 		<dict>
 			<key>className</key>
@@ -5378,6 +5888,40 @@
 			<key>uniqueIdentifier</key>
 			<string>DB49E3AC-E346-49CF-8DB1-67C571DB9C5C</string>
 		</dict>
+		<key>DCC33B37-6B58-44F5-8E9B-E808073A6D27</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DCC33B37-6B58-44F5-8E9B-E808073A6D27.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671380097.28094494</real>
+			<key>timeStoppedRecording</key>
+			<real>671380100.03007305</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>DCC33B37-6B58-44F5-8E9B-E808073A6D27</string>
+		</dict>
 		<key>DD8A4D9E-6B96-49B0-98DB-193475477E1C</key>
 		<dict>
 			<key>className</key>
@@ -5513,6 +6057,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>E0CC14C4-AF1E-4789-AC0A-3779A670DEE1</string>
+		</dict>
+		<key>E241C5B1-355B-4090-A356-6AFF3AE45AAB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E241C5B1-355B-4090-A356-6AFF3AE45AAB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671381920.20659399</real>
+			<key>timeStoppedRecording</key>
+			<real>671381920.80832303</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>E241C5B1-355B-4090-A356-6AFF3AE45AAB</string>
 		</dict>
 		<key>E2BB6961-505B-4FF9-985D-ECEDABB82771</key>
 		<dict>
@@ -6092,6 +6670,40 @@
 			<key>uniqueIdentifier</key>
 			<string>F884F478-0859-4909-A875-99F342E65509</string>
 		</dict>
+		<key>FB4DC11F-839C-4DFC-A14E-B71B47A2A710</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FB4DC11F-839C-4DFC-A14E-B71B47A2A710.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671381792.25017095</real>
+			<key>timeStoppedRecording</key>
+			<real>671381797.14979398</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>FB4DC11F-839C-4DFC-A14E-B71B47A2A710</string>
+		</dict>
 		<key>FB58013F-B468-43F4-9762-C580F7DA4F90</key>
 		<dict>
 			<key>className</key>
@@ -6228,6 +6840,40 @@
 			<key>uniqueIdentifier</key>
 			<string>FD338B08-4F7C-4410-9EC4-82943AADCF20</string>
 		</dict>
+		<key>FDC048CD-811B-47F5-AED7-5F7362C854F2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FDC048CD-811B-47F5-AED7-5F7362C854F2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671379847.93555796</real>
+			<key>timeStoppedRecording</key>
+			<real>671379850.72103298</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>FDC048CD-811B-47F5-AED7-5F7362C854F2</string>
+		</dict>
 		<key>FF60DC6D-3CE8-4CD1-866F-C221CCD7C2CD</key>
 		<dict>
 			<key>className</key>
@@ -6261,6 +6907,40 @@
 			<string>Build BCP-Challenge</string>
 			<key>uniqueIdentifier</key>
 			<string>FF60DC6D-3CE8-4CD1-866F-C221CCD7C2CD</string>
+		</dict>
+		<key>FFA08887-9F4E-417E-981C-6A871E6713B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FFA08887-9F4E-417E-981C-6A871E6713B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BCP-Challenge project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BCP-Challenge</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BCP-Challenge</string>
+			<key>timeStartedRecording</key>
+			<real>671381914.95311999</real>
+			<key>timeStoppedRecording</key>
+			<real>671381915.756899</real>
+			<key>title</key>
+			<string>Build BCP-Challenge</string>
+			<key>uniqueIdentifier</key>
+			<string>FFA08887-9F4E-417E-981C-6A871E6713B3</string>
 		</dict>
 		<key>FFA1FC6B-C000-4130-A16C-A0575A3D7DB6</key>
 		<dict>

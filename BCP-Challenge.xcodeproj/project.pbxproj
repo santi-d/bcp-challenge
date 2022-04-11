@@ -37,6 +37,7 @@
 		D1C64A9F2803E66000B6037D /* ChangeCurrencyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64A9E2803E66000B6037D /* ChangeCurrencyPresenter.swift */; };
 		D1C64AA12803F35600B6037D /* ChangeCurrencyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64AA02803F35600B6037D /* ChangeCurrencyInteractor.swift */; };
 		D1C64AA32803F44600B6037D /* BaseInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64AA22803F44600B6037D /* BaseInteractorProtocol.swift */; };
+		D1C64AA6280475B200B6037D /* OtherCurrenciesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C64AA5280475B200B6037D /* OtherCurrenciesPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		D1C64A9E2803E66000B6037D /* ChangeCurrencyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCurrencyPresenter.swift; sourceTree = "<group>"; };
 		D1C64AA02803F35600B6037D /* ChangeCurrencyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCurrencyInteractor.swift; sourceTree = "<group>"; };
 		D1C64AA22803F44600B6037D /* BaseInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractorProtocol.swift; sourceTree = "<group>"; };
+		D1C64AA5280475B200B6037D /* OtherCurrenciesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherCurrenciesPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 			children = (
 				D1C64A922803A0E400B6037D /* OtherCurrencies.storyboard */,
 				D1C64A942803A10000B6037D /* OtherCurrenciesViewController.swift */,
+				D1C64AA5280475B200B6037D /* OtherCurrenciesPresenter.swift */,
 				D1C64A9A2803C42A00B6037D /* OtherCurrencyInteractor.swift */,
 			);
 			path = OtherCurrencies;
@@ -413,6 +416,7 @@
 				D1C64A9F2803E66000B6037D /* ChangeCurrencyPresenter.swift in Sources */,
 				D1AF3FD82803812E00795E8F /* ChangeCurrencyViewController.swift in Sources */,
 				D1AF3FC72801F3FF00795E8F /* UIFont.swift in Sources */,
+				D1C64AA6280475B200B6037D /* OtherCurrenciesPresenter.swift in Sources */,
 				D1B6EC592801E34D0003BA0C /* AppDelegate.swift in Sources */,
 				D1B6EC5B2801E34D0003BA0C /* SceneDelegate.swift in Sources */,
 				D1C64AA12803F35600B6037D /* ChangeCurrencyInteractor.swift in Sources */,
